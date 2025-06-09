@@ -27,6 +27,10 @@ html {
    min-height: 100vh;
  }
 
+ img {
+   display: block;
+ }
+
 /* Row Styles */
 
 
