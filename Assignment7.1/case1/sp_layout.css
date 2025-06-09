@@ -7,17 +7,42 @@
    
    Layout styles for Slate and Pencil Tutoring
    Author: DeWayne T. Murray
-   Date:   06/08/2025
-  
+   Date:   06/08/2025  
+   
    Filename: sp_layout.css
 
 */
 
 /* Window and Body Styles */
 
+html {
+   height: 100%;
+ }
+ body {
+   width: 95%;
+   min-width: 640px;
+   max-width: 960px;
+   margin-left: auto;
+   margin-right: auto;
+   min-height: 100vh;
+ }
 
+ img {
+   display: block;
+ }
 
+ img#logo {
+   grid-column: span 3;
+   width: 100%;
+ }
 
+ 
+/* Grid Styles */
+ body {
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr 1fr;
+ }
+ 
 /* Row Styles */
 
 
@@ -32,9 +57,34 @@
 
 
 /* Horizontal Navigation List Styles */
+nav, footer {
+   grid-column: span 4;
+ }
+ 
+ aside {
+   grid-column: span 2;
+ }
 
+ nav ul li {
+   display: block;
+   width: 12.5%;
+   float: left;
+ }
 
+ 
+/* Section Styles */
+section img {
+   width: 50%;
+   margin: 0 auto;
+   display: block;
+ }
 
+ section p {
+   width: 70%;
+   margin: 0 auto;
+ }
+ 
+ 
 
 /* Topics Styles */
 
@@ -50,7 +100,26 @@
 
 /* Customer Comment Styles */
 
+aside {
+   width: 75%;
+   padding-bottom: 30px;
+ }
 
+
+ aside:nth-of-type(odd) {
+   justify-self: end;
+ }
+
+ aside img {
+   float: left;
+   width: 20%;
+ }
+
+ aside p {
+   float: left;
+   width: 75%;
+   margin-left: 5%;
+ }
 
 /* Footer Styles */
 
