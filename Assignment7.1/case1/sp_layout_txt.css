@@ -78,6 +78,11 @@ section img {
    display: block;
  }
 
+ section p {
+   width: 70%;
+   margin: 0 auto;
+ }
+ 
  
 
 /* Topics Styles */
