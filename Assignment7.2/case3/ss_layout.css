@@ -41,7 +41,10 @@ article p:first-of-type::first-line {
 
 /* Aside Styles */
 
-
+aside {
+   width: 768px;
+   float: left;
+ }
 
 
 /* Map Styles */
