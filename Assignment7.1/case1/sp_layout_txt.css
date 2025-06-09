@@ -99,7 +99,10 @@ section img {
 
 /* Customer Comment Styles */
 
-
+aside {
+   width: 75%;
+   padding-bottom: 30px;
+ }
 
 /* Footer Styles */
 
