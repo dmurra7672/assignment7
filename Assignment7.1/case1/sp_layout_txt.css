@@ -31,6 +31,12 @@ html {
    display: block;
  }
 
+ img#logo {
+   grid-column: span 3;
+   width: 100%;
+ }
+
+ 
 /* Grid Styles */
  body {
    display: grid;
