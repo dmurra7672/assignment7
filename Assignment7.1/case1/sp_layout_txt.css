@@ -71,6 +71,15 @@ nav, footer {
    float: left;
  }
 
+/* Section Styles */
+section img {
+   width: 50%;
+   margin: 0 auto;
+   display: block;
+ }
+
+ 
+
 /* Topics Styles */
 
 
