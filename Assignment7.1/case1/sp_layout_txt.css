@@ -71,6 +71,7 @@ nav, footer {
    float: left;
  }
 
+ 
 /* Section Styles */
 section img {
    width: 50%;
@@ -102,6 +103,11 @@ section img {
 aside {
    width: 75%;
    padding-bottom: 30px;
+ }
+
+
+ aside:nth-of-type(odd) {
+   justify-self: end;
  }
 
 /* Footer Styles */
