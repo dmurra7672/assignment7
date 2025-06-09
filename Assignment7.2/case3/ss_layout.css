@@ -60,7 +60,11 @@ aside {
  }
 
 /* Interactive Map Styles */
+a.battleMarkers {
+   position: absolute;
+ }
 
+ 
 
 
 
