@@ -37,17 +37,12 @@ html {
  }
 
  
-/* Grid Styles */
+/* Row Styles */
  body {
    display: grid;
    grid-template-columns: 1fr 1fr 1fr 1fr;
  }
  
-/* Row Styles */
-
-
-
-
 
 /* Page Header Styles */
 
@@ -72,7 +67,7 @@ nav, footer {
  }
 
  
-/* Section Styles */
+/* Topics Styles */
 section img {
    width: 50%;
    margin: 0 auto;
@@ -84,13 +79,6 @@ section img {
    margin: 0 auto;
  }
  
- 
-
-/* Topics Styles */
-
-
-
-
 
 
 /* HR Styles */
